@@ -1,0 +1,13 @@
+
+.tags a {
+  margin-left: 7px;
+  border: 1px solid #d0d0d0;
+  padding: 5px;
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #111;
+}
+
+.tags a:hover, .new-blog-post:hover {
+  background-color: #ffedd8;
+}

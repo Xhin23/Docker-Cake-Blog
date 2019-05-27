@@ -1,0 +1,2 @@
+CREATE DATABASE blog;
+GRANT ALL PRIVILEGES ON blog.* TO 'blog'@'localhost' IDENTIFIED BY '7fR!#7h)7PTB~P:h';
