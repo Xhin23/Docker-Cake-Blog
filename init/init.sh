@@ -1,4 +1,5 @@
 #!/bin/bash
+chown -R mysql:mysql /var/lib/mysql /var/run/mysqld
 service mysql start
 mysql -u root --password=7gNdqn=zpx2D{{bh < /var/www/html/init/init.sql
 mysql -u root --password=7gNdqn=zpx2D{{bh blog < /var/www/html/init/blog.sql
